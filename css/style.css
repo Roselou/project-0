@@ -1,0 +1,38 @@
+body {
+	background-color: #000000;
+	
+}
+
+h1 {
+	font-family: 'Exo', sans-serif;
+	 text-shadow: 4px 4px 4px #fff;
+	 color: #ffffff;
+	 display: block;
+}
+
+footer {
+	background-color: #4D4D4D;
+	display: block;
+	position: absolute;
+    width: 100%;
+    margin-top: 300px;
+
+}
+
+p {
+	font-family: 'Exo', sans-serif;
+	color: #fff;
+}
+
+.purple {
+	width: 10px;
+	height: 10px;
+	background-color: #E96AFF;
+}
+
+.green {
+	width: 10px;
+	height: 10px;
+	background-color: #00D45A;
+}
+
