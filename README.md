@@ -15,6 +15,15 @@ Technologies used for which parts:
 Explanation of approach:
 	Inspired by both the Pink Floyd album "Dark Side of the Moon" as well as light prisms in general, this racing game is meant to allow the players to interact with digital lights in a different way than previously accustomed to.
 
+	Sample Code: 
+		
+		    if ($('.purple').width()>= 925){
+		    	alert("Purple won!");
+		  	$('#light-beam').animate({
+				width: '+=250px',
+				height: "20px"
+			}, 100);
+
 Unsolved problems/unfinished challenges: 
 	Mostly the bonus challenges: 
 		1) Play against a Bot
