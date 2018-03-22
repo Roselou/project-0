@@ -1,38 +1,125 @@
 body {
 	background-color: #000000;
-	
 }
 
 h1 {
 	font-family: 'Exo', sans-serif;
-	 text-shadow: 4px 4px 4px #fff;
+	font-weight: thin;
+	 text-shadow: 2px 2px 2px #fff;
 	 color: #ffffff;
 	 display: block;
+	 margin-top: 10px;
+	 text-align: center;
+	 font-size: 50px;
+	 letter-spacing: 2px;
+}
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover{
+	color: #FFDC38;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px #FFDC38;
+}
+h3 {
+	color: #ffffff;
+	font-family: 'PT Sans', sans-serif;
 }
 
 footer {
-	background-color: #4D4D4D;
 	display: block;
 	position: absolute;
     width: 100%;
-    margin-top: 300px;
-
-}
+    margin-top: 60px;
+    padding-top: 20px;
+	}
 
 p {
-	font-family: 'Exo', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 	color: #fff;
-}
+	}
 
 .purple {
-	width: 10px;
-	height: 10px;
-	background-color: #E96AFF;
-}
+	margin-top: 100px;
+	width: 12px;
+	height: 20px;
+	background-color: #9988DE);
+    background: linear-gradient(to right, rgba(153,136,222,0), rgba(153,136,222,1));
+	border-radius: 12px;
+
+	}
 
 .green {
-	width: 10px;
+	margin-top: 50px;
+	width: 12px;
+	height: 20px;
+	background-color: #2FB89A;
+	background: linear-gradient(to right, rgba(47,184,154,0), rgba(47,184,154,1));
+	border-radius: 12px;
+	margin-bottom: 100px;
+}
+
+#light-beam {
 	height: 10px;
-	background-color: #00D45A;
+	width: 20px;
+	margin-top: 38px;
+	background-color: #ffffff;
+	background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
+	transform: rotate(-30deg);
+	border-radius: 12px;
+
+}
+.arrow-up {
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 50px;
+    width: 0px;
+    height: 0px;
+    border-left: 500px solid transparent;
+    border-left-width: 100px;
+    border-left-style: solid;
+    border-left-color: transparent;
+    border-right: 500px solid transparent;
+    border-right-width: 100px;
+    border-right-style: solid;
+    border-right-color: transparent;
+    border-bottom: 500px solid #ffffff;
+    border-bottom-width: 200px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    }
+
+
+#moon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #808080;
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 400px;
+}
+
+#moon:hover {
+	box-shadow: 15px 15px 0 0 #FFDC38;
+}
+
+#purple-light {
+	color: #9988DE;
+}
+
+#green-light {
+	color: #2FB89A;
+}
+
+#reset{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+
+.instructions-2{
+	margin-top: -10px;
 }
 
