@@ -1,5 +1,5 @@
 Description of project: 
-	This game accepts two players to race as different wavelengths of light: purple and green. Using the right arrow and "z" keys, each player can move their wavelength across the screen to be the first to diffract into the triangular prism. 
+	This game accepts two players to race as different wavelengths of light: purple and green. Using the right arrow and "z" keys, each player can move their wavelength across the screen to be the first to refract into the triangular prism. 
 
 
 Technologies used for which parts:
